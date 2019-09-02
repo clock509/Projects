@@ -1,2 +1,2 @@
-# Choi-s-Personal-Data-analysis
+# Projects
 Personal project / Summarizing personal studying
