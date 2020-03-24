@@ -1,0 +1,13 @@
+server:
+  port: 8080 #이렇게 지정하고 서버를 실행하면 8080 port로 서버가 실행된다.
+             #다른 port를 지정하려면 1024 이상의 다른 포트를 명시하면 된다.
+             #참고로 1024 이하의 port는 특권(privileged) 포트로 지정되어 있어 root 권한으로만 사용할 수 있는 port이다.
+#spring:
+#  datasource:
+#    url: jdbc:h2:tcp://localhost/~/test #DB 주소
+#    driver-class-name: org.h2.Driver    #DB 접속을 위해 사용할 디바이스 드라이버
+#    username: sa                        #DB 접속 유저명
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect #JPA에서 사용할 DB로 h2를 세팅한다.
+#    properties.hibernate.hbm2ddl.auto: update          #시작하면서 도메인 객체 구성과 DB의 스키마를 비교해 필요한 테이블이나 칼럼이 없을 때 도메인 객체에 맞춰 DB 스키마를 변경함.
+#    showSql: true #JPA가 실행하는 쿼리를 console log로 출력하기 위한 설정.
